@@ -266,11 +266,11 @@ footer .social-icons a:hover {
   .article {
     margin-bottom: 20px;
   }
-  .article-skeleton {
-    margin-bottom: 20px;
-  }
   .article h2 {
     font-size: 1.7rem;
+  }
+  .article-skeleton {
+    margin-bottom: 20px;
   }
   .smaller-articles {
     flex-direction: column;
@@ -327,6 +327,15 @@ footer .social-icons a:hover {
   }
   .article h2 {
     font-size: 1.3rem;
+  }
+  article, .text-content {
+    width: 100%;
+  }
+  article h1, .text-content h1 {
+    font-size: 1.8rem;
+  }
+  article p, .text-content p {
+    font-size: 1rem;
   }
 }
 /* Scrollbar */

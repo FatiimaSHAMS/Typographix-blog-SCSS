@@ -17,15 +17,15 @@
     .article {
       margin-bottom: 20px;
 
-      &-skeleton {
-        margin-bottom: 20px;
-      }
-
       h2 {
         font-size: 1.7rem;
       }
     }
 
+    .article-skeleton {
+        margin-bottom: 20px;
+    }
+    
     .smaller-articles {
       flex-direction: column;
     }
@@ -96,5 +96,17 @@
         font-size: 1.3rem;
       }
     }
-  }
+
+    article, .text-content {
+        width:100%;
+
+        h1 {
+            font-size: 1.8rem;
+        }
+    
+        p {
+            font-size: 1rem;
+        }
+    }
+}
     
